@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "andra@mail.com",
+      "password": "Public123",
+      "role": "Admin",
+      "phoneNumber": "0812345678910",
+      "address": "Jakarta"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "SEPATU SAMBA OG",
+      "slug": "samba-og-shoes-68187.html",
+      "description": "Diciptakan untuk sepak bola indoor, Samba menjadi ikon street style yang tak lekang oleh waktu. Sepatu ini tetap mempertahankan warisannya dengan upper kulit lembut dan overlay berbahan suede.",
+      "price": 2200000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/ffbe5d912e2813a20bb27461a01c1e7c/b/7/b75807_sl_ecom.jpg",
+      "categoryId": 1,
+      "authorId": 1,
+      "userMongoId": "65265b74164496f03d70165f"
+    },
+    {
+      "id": 2,
+      "name": "GAZELLE INDOOR SHOES",
+      "slug": "gazelle-indoor-shoes-747228.html",
+      "description": "Shake up the iconic adidas Gazelle shoes with some playful colours. Originally released as an indoor football trainer, this stylish silhouette has gone on to shine in the fashion world. This pair shows off bold colours offset by the white laces, eyestay, tongue and lining. The translucent gum sole adds retro flair and lets the bottom of the 3-Stripes show through down to the midsole.",
+      "price": 2500000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/3bec5fdb79d91223b1a151be2b21ce8d/i/g/ig4996_2_footwear_photography_side20lateral20view_grey.jpg",
+      "categoryId": 1,
+      "authorId": 1,
+      "userMongoId": "65265b74164496f03d70165f"
+    },
+    {
+      "id": 3,
+      "name": "SEPATU GAZELLE BOLD",
+      "slug": "gazelle-bold-shoes-726380.html",
+      "description": "Tidak akan menjadi daftar sepatu paling ikonis dari adidas tanpa Gazelle. Pertama kali dipakai di lapangan indoor di era '70-an, sepatu berbahan suede ini terus mendapatkan fans baru hingga hari ini. Kini, style yang kamu dambakan semakin trendi. Memiliki tinggi tiga lapisan, untuk menghadirkan perspektif baru dalam style klasik. Detail t-shirt ini mempertahankan style sporty dengan bahan suede superlembut dan 3-Stripes bergerigi. berwarna emas metalik menjadi tanda terakhir dari warisan kami.",
+      "price": 1800000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/3bec5fdb79d91223b1a151be2b21ce8d/h/q/hq6912_2_footwear_photography_side20lateral20view_grey.jpg",
+      "categoryId": 2,
+      "authorId": 1,
+      "userMongoId": "65265c35164496f03d701660"
+    },
+    {
+      "id": 4,
+      "name": "SEPATU BYW SELECT",
+      "slug": "sepatu-byw-select-789356.html",
+      "description": "Tetap semangat dalam setiap langkahmu sepanjang permainan. Sepatu basket adidas ini dilengkapi bantalan Lightstrike yang membuatmu tetap nyaman tanpa membebanimu. BOOSt mengembalikan energi dalam setiap langkah, sehingga kamu selalu memiliki tenaga tersisa di dalam diri untuk bermain saat dibutuhkan.",
+      "price": 2500000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/3bec5fdb79d91223b1a151be2b21ce8d/i/e/ie9306_2_footwear_photography_side20lateral20view_grey.jpg",
+      "categoryId": 2,
+      "authorId": 1,
+      "userMongoId": "65265c35164496f03d701660"
+    },
+    {
+      "id": 5,
+      "name": "SEPATU ELASTIC LACE AND TOP STRAP ADIDAS X LEGO&REG® RACER TR21",
+      "slug": "sepatu-elastic-lace-and-top-strap-adidas-x-lego-reg-racer-tr21-782282.html",
+      "description": "Biarkan si kecil berlari bebas dari imajinasi mereka. Sneaker adidas untuk bayi ini cocok untuk balita yang gemar berlari, memanjat, dan membangun. Upper lembut dengan lining yang nyaman dan dilengkapi outsole berbahan karet yang kuat. Stud LEGO® menambahkan corak warna. Dibuat dari rangkaian material daur ulang, upper-nya mengandung sedikitnya 50% konten daur ulang.",
+      "price": 850000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/3bec5fdb79d91223b1a151be2b21ce8d/i/g/ig0567_2_footwear_photography_side20lateral20view_grey.jpg",
+      "categoryId": 3,
+      "authorId": 1,
+      "userMongoId": "65265c35164496f03d701660"
+    },
+    {
+      "id": 6,
+      "name": "ADIZERO SL RUNNING LIGHTSTRIKE SHOES KIDS",
+      "slug": "adizero-sl-running-lightstrike-shoes-kids-733146.html",
+      "description": "Pick up the pace and let your feet fly. With the ultralight feel that our Adizero line is known for, these juniors' adidas running shoes help you channel record-breaking speed into all your training runs. Lightstrike Pro cushioning is paired with a soft mesh upper, so there's nothing weighing you down or holding you back as you run.Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
+      "price": 1300000,
+      "mainImg": "https://www.adidas.co.id/media/catalog/product/cache/3bec5fdb79d91223b1a151be2b21ce8d/i/f/if5542_2_footwear_photography_side20lateral20view_grey.jpg",
+      "categoryId": 3,
+      "authorId": 1,
+      "userMongoId": "652695b204f964ecd2699067"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pria"
+    },
+    {
+      "id": 2,
+      "name": "Wanita"
+    },
+    {
+      "id": 3,
+      "name": "Anak"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "productId": 1,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/b/7/b75807_flt_ecom.jpg"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/i/g/ig4996_6_footwear_photography_front20lateral20top20view_grey.jpg"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/h/q/hq6912_6_footwear_photography_front20lateral20top20view_grey.jpg"
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/i/e/ie9306_6_footwear_photography_front20lateral20top20view_grey.jpg"
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/i/g/ig0567_6_footwear_photography_front20lateral20top20view_grey.jpg"
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "imgUrl": "https://www.adidas.co.id/media/catalog/product/i/f/if5542_6_footwear_photography_front20lateral20top20view_grey.jpg"
+    }
+  ]
+}

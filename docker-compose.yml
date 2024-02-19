@@ -1,0 +1,23 @@
+services:
+    app-service:
+        build: ./server/services/app/server
+        ports:
+            - "4002:4002"
+        environment:
+            JWT_SECRET: ${JWT_SECRET}
+            NODE_ENV: "production"
+            DATABASE_URL: ${DATABASE_URL}
+    user-service:
+        build: ./server/services/users
+        ports:
+            - "4001:4001"
+        environment:
+            URI: ${URI}
+    orchestrator:
+        build: ./server/orchestrator
+        ports:
+            - "80:4000"
+        environment:
+            PASSWORD: ${PASSWORD}
+            PRODUCT_URL: ${PRODUCT_URL}
+            USER_URL: ${USER_URL}
