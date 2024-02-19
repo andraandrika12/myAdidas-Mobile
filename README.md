@@ -1,87 +1,47 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12299659&assignment_repo_type=AssignmentRepo)
-# P3-Challenge-2
+## myAdidas
 
-UI Library: ...
+### Deskripsi
 
-Struktur Folder:
+myAdidas adalah platform seluler yang dirancang untuk memberikan pengalaman belanja online yang ramah pengguna ke situs web Adidas. Platform ini dikembangkan dengan teknologi canggih untuk memastikan kenyamanan dan keamanan pengguna dalam berbelanja secara daring.
 
-- client-mobile
-- server
-  - orchestrator (port: 4000)
-  - orchestrator-express (port: 4000)
-  - services
-    - users - mongodb (port: 4001)
-    - app - postgres (port: 4002)
+### Teknologi yang Digunakan
 
-## W2D2
+- React: Digunakan untuk pengembangan antarmuka pengguna yang responsif dan interaktif.
+- React-Redux: Memfasilitasi manajemen status global untuk aplikasi React.
+- Redux-Thunk: Middleware Redux untuk mengelola permintaan asinkron.
+- Sequelize: ORM (Object-Relational Mapping) untuk berinteraksi dengan database relasional.
+- JsonWebToken: Digunakan untuk otentikasi pengguna melalui token JWT yang aman.
+- Express: Framework backend untuk mengelola permintaan HTTP dan menyediakan API untuk aplikasi.
+- BcryptJS: Digunakan untuk mengenkripsi dan memverifikasi kata sandi pengguna.
+- Postman: Digunakan untuk menguji dan mengelola permintaan API secara efisien.
 
-Target:
+### Guide
 
-- [x] Memahami `react-native` dan `expo`
-- [x] Install `expo-cli` & `expo init` & setup project mobile
-- [x] Mencoba component Text, View, Image, StyleSheet, Button, ScrollView, FlatList
-- [x] Mencoba useState, useEffect dalam react-native
-- [x] Hit API server yang sudah dibuat untuk mendapatkan data
-- [x] Mengetahui bahwa redux & redux-thunk bisa diimplementasi di react-native
-- [x] Memahami `react-native-navigation`
-- [x] Memahami Stack Navigation & Tab Navigation
-- [x] Membuat min 2 Screen (Home, Detail)
 
-**Report:**
+1. client (folder)
+Folder ini berisi semua file yang berkaitan dengan frontend atau antarmuka pengguna dari aplikasi. Di dalamnya, Anda dapat menemukan file-file seperti komponen React, file CSS, file JavaScript, dan file lain yang terkait dengan tampilan dan interaksi pengguna.
 
-...
+2. server (folder)
+Folder ini berisi semua file yang berkaitan dengan backend atau bagian server dari aplikasi. Di dalamnya, Anda dapat menemukan file-file seperti rute API, pengaturan server, skema basis data, dan file lain yang terkait dengan logika bisnis dan penyimpanan data.
 
-## W2D3
+3. README.md
+File README.md adalah dokumen utama yang memberikan informasi tentang proyek. Ini berisi deskripsi proyek, panduan penggunaan, teknologi yang digunakan, dan informasi lain yang diperlukan untuk memahami dan menggunakan proyek tersebut.
 
-Target:
+4. docker-compose.yml
+File docker-compose.yml berisi konfigurasi Docker Compose yang mendefinisikan layanan-layanan yang akan dijalankan bersama-sama dan cara mereka akan dijalankan. Ini memungkinkan untuk mendefinisikan konfigurasi lingkungan pengembangan yang konsisten dan dapat diulang dengan mudah.
 
-- [x] Memahami React Native Gesture Handler
-- [x] Memahami NoSQL: Mongodb
-- [x] Membuat service users dengan Mongodb (Kerjakan di `server/services/users`)
-- [x] Membuat action pada users: Read, Create & Delete (Update optional)
+5. notes.md
+File notes.md berisi catatan atau memo yang relevan untuk pengembangan atau penggunaan proyek. Ini mungkin mencakup instruksi penggunaan, catatan rilis, masalah yang diketahui, atau informasi lain yang berguna untuk pengembang atau pengguna proyek.
 
-**Report:**
+6. password
+File password mungkin berisi kata sandi atau kredensial sensitif lainnya yang diperlukan untuk mengakses sumber daya tertentu, seperti basis data atau layanan pihak ketiga. File ini harus diatur dengan sangat hati-hati dan tidak boleh disertakan dalam repositori secara terbuka. Sebaiknya gunakan mekanisme keamanan yang aman untuk mengelola dan menyimpan kata sandi.
 
-...
+Platform ini dirancang dengan fokus pada kecepatan, keamanan, dan kenyamanan pengguna. Dengan teknologi-teknologi canggih yang digunakan, myAdidas August 2023 menjanjikan pengalaman belanja online yang mulus dan memuaskan bagi para pengguna.
 
-## W2D4
+Jika memiliki pertanyaan lebih lanjut tentang platform ini atau ingin memberikan masukan, jangan ragu untuk menghubungi.
 
-Target:
+### Screenshot
 
-- [x] Membuat Server Baru, Microservices
-- [x] Memisahkan service user dan app
-- [x] Membuat Orchestrator-express yang bisa komunikasi ke service user dan app
-- [x] Memahami cache dalam database
-- [x] Install dataabase Redis dan menggunakan ioRedis sebagai cache
-- [x] Menjaga relasi User dengan product pada microservice
+![adidasMobile](https://github.com/andraandrika12/myAdidas-Mobile/assets/138641051/d647ccc6-695a-430c-ae60-076f0c0799bf)
 
-**Report:**
 
-...
-
-## W2D5
-
-Target:
-
-- [ ] Memahami GraphQL dan tahu perbedaan dengan RESTful API
-- [ ] Membuat Orchestrator dengan menggunakan GraphQL
-- [ ] Memahami Typedefs, Resolvers
-- [ ] Mampu membuat Query dan Mutation
-- [ ] Menggunakan redis pada graphql untuk kebutuhan cache server
-- [ ] Memahami Apollo-Client & Implementasi pada mobile apps
-- [ ] Memahami cache pada Apollo-Client
-
-**Report:**
-
-...
-
-## W3D1
-
-Target:
-
-- [ ] Memahami Docker
-- [ ] Implementasi Docker pada aplikasi server
-
-**Report:**
-
-...
